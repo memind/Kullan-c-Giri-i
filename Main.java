@@ -23,10 +23,10 @@ public class Main{
                 yenipass = inp.nextLine();
     
                 if (yenipass.equals("java123")){
-                    System.out.print("Şifreniz Öncekiyle Aynı Olamaz!");
+                    System.out.print("Şifre oluşturulamadı, lütfen başka şifre giriniz.");
                 }
                 else{
-                    System.out.println("Şifreniz Güncellendi!");
+                    System.out.println("Şifre oluşturuldu");
                 }
             }
 
@@ -34,6 +34,7 @@ public class Main{
                 System.out.println("Program Sonlandırılıyor!");
             }
             
+            else {System.out.print("Lütfen Geçerli Bir Girdi Kullanın!");}
         }
 
     }
